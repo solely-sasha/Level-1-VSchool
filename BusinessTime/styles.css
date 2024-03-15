@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+background-color: #f4f4f4;
+}
+
+
+.hero {
+  background-color: #ff981a; 
+  color: #fff;
+  padding: 100px 20px; 
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em; 
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em; 
+}
+
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.feature img {
+    max-width: 100%; 
+    max-height: 200px;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+nav {
+ background-color: #e95050; #ff8c00;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input,
+textarea {
+  margin: 20px;
+  width: calc(100% - 50px);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.package {
+  border: 1px solid #cccccc;
+  box-shadow: rgba(48, 47, 47, 0.535) 0px 5px 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+ background-color: #ffcc5c;
+  text-align: center;
+}
+form{
+     background-color: #ffcc5c;
+     padding: 10px; 
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+button {
+  cursor: pointer;
+ background-color: #e95050;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e95050c5;
+ 
+}
+
+footer {
+    background-color: #e95050;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
